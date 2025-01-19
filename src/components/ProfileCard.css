@@ -1,0 +1,35 @@
+.profile-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .profile-card h3 {
+    margin: 10px 0;
+  }
+  
+  .profile-card button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .profile-card button:hover {
+    background-color: #0056b3;
+  }
+  
